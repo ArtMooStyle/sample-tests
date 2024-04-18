@@ -34,6 +34,15 @@ public class SampleController(ILogger<SampleController> logger) : ControllerBase
         return city;
     }
     
+    [HttpGet]
+    public async ValueTask<string> Sample4()
+    {
+        logger.LogWarning($"Starting execute in {Thread.CurrentThread.ManagedThreadId}");
+        var city = await GenerateCity();
+        logger.LogWarning($"CallBack in {Thread.CurrentThread.ManagedThreadId}");
+        return city;
+    }
+    
     [NonAction]
     private async Task<string> GenerateCity()
     {
