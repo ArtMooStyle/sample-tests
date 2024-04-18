@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiApp", "SampleWebApi\SampleWebApiApp.csproj", "{AF9381AF-A0E0-4F51-9E4B-452577A5D158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Logging", "MT.Logging\MT.Logging.csproj", "{4286BC5C-D0ED-49ED-8741-337D56D24691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF9381AF-A0E0-4F51-9E4B-452577A5D158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9381AF-A0E0-4F51-9E4B-452577A5D158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9381AF-A0E0-4F51-9E4B-452577A5D158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9381AF-A0E0-4F51-9E4B-452577A5D158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4286BC5C-D0ED-49ED-8741-337D56D24691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4286BC5C-D0ED-49ED-8741-337D56D24691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4286BC5C-D0ED-49ED-8741-337D56D24691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4286BC5C-D0ED-49ED-8741-337D56D24691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
