@@ -1,3 +1,4 @@
+
 # sample-tests
 NET developers testing
 
@@ -6,5 +7,8 @@ NET developers testing
 - Объясните в чем между ними разница. Как изменится значение ManagedThreadId в зависимости от метода 
 в момент Starting execute, IO in и CallBack in? Какой будет порядок вывода лога
 - Сравните между собой методы Sample2 и Sample3 
+- Объясните в чем между ними разница. Как изменится значение ManagedThreadId в зависимости от метода 
+в момент Starting execute, IO in и CallBack in? Какой будет порядок вывода лога? Что будет выведено в ресмонс?
+- Сравните между собой методы Sample2 и Sample3 и Sample4 
 - Объясните в чем между ними разница. Как изменится значение ManagedThreadId в зависимости от метода 
 в момент Starting execute, IO in и CallBack in? Какой будет порядок вывода лога? Что будет выведено в ресмонс?
