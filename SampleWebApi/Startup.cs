@@ -11,7 +11,7 @@ public class Startup(IConfiguration configuration, IWebHostEnvironment environme
         services.AddHealthChecks();
         services.AddSwaggerGen(options =>
         {
-            options.SwaggerDoc("v1", new OpenApiInfo { Title = "LastMile.Mobile.BFF", Version = "v1" });
+            options.SwaggerDoc("v1", new OpenApiInfo { Title = "Testing", Version = "v1" });
         });
     }
     public void Configure(IApplicationBuilder app)
@@ -21,7 +21,7 @@ public class Startup(IConfiguration configuration, IWebHostEnvironment environme
         
         app.UseRouting();
         app.UseSwagger();
-        app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "LastMile.Mobile.BFF v1"); });
+        app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "Testing v1"); });
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();

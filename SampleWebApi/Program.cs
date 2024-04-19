@@ -9,6 +9,7 @@ try
     ThreadPool.SetMaxThreads(4, 8);
     ThreadPool.SetMinThreads(2, 4);
     Host.CreateDefaultBuilder(args)
+        .ConfigureLogger()
         .ConfigureWebHostDefaults(webBuilder =>
         {
             webBuilder.UseStartup<Startup>();
